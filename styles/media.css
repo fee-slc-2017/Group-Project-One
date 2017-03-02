@@ -1,0 +1,12 @@
+@media (max-width: 450px) {
+  body {
+    background: #C55;
+  }
+}
+
+@media(min-width: 800px) {
+  body {
+    background: #505;
+  }
+
+}
