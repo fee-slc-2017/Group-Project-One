@@ -1,3 +1,12 @@
 body {
   background: yellow;
 }
+
+.show-bg{
+  background: lightslategrey;
+  padding: 20px;
+  /*box-shadow: 0px 0px 0px 20px mediumslateblue inset;*/
+  font-size: 0;
+  border: 0px;
+  height: 10vh;
+}
