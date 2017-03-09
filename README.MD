@@ -4,4 +4,4 @@
   - tylerbyte
   - Robert Johnson
   - tuningmind
-  - metasean
+  - Josh Holladay
