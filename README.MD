@@ -2,4 +2,5 @@
   - Patrick Logan
   - The Dex Mills
   - tylerbyte
-  - Robert Johnson 
+  - Robert Johnson
+  - tuningmind
