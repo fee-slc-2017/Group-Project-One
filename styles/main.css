@@ -1,12 +1,66 @@
 body {
-  background: yellow;
+  background-color: khaki;
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: stretch;
+    background-color: orange;
 }
 
-.show-bg{
-  background: lightslategrey;
-  padding: 20px;
-  /*box-shadow: 0px 0px 0px 20px mediumslateblue inset;*/
-  font-size: 0;
-  border: 0px;
-  height: 10vh;
+
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+ .flex-item-1 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 98%;
+    background-color: blue;
+}
+
+ .flex-item-2 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color: red;
+}
+
+ .flex-item-3 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color: green;
+}
+
+ .flex-item-4 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color: yellow;
+}
+
+ .flex-item-5 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 98%;
+    background-color: purple;
 }
