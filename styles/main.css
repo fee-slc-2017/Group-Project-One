@@ -1,12 +1,107 @@
-body {
-  background: yellow;
+header {
+  margin: 0;
 }
 
-.show-bg{
-  background: lightslategrey;
-  padding: 20px;
-  /*box-shadow: 0px 0px 0px 20px mediumslateblue inset;*/
-  font-size: 0;
-  border: 0px;
-  height: 10vh;
+html, body, * {
+  box-sizing: border-box;
+}
+
+body {
+  background: yellow;
+  margin: 0px;
+  margin-top: 10%;
+}
+
+.container {
+  flex-grow: 1;
+
+}
+
+.banner {
+height: 200px;
+width: 100%;
+background-color: red;
+}
+.columns {
+  flex-direction: row;
+  justify-content: stretch;
+  height: 100%;
+}
+
+
+.left {
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  float:left;
+  background-color: green;
+}
+
+.center {
+  border: 1px solid red;
+  height: 150px;
+  width: 150px;
+  float:left;
+  background-color: lightblue;
+}
+
+.right {
+  border: 1px solid yellow;
+  height: 150px;
+  width: 150px;
+  float:left;
+  color: black;
+  background-color: yellow;
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    border: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+nav {
+  font-size: 1.5em;
+  color: black;
+}
+
+.footer {
+  align-self: flex-end;
+  position:absolute;
+  background-color: white;
+  left:0;
+  bottom:0;
+  height:100px;
+  width:100%;
+  text-align: center;
+  padding:5px;
 }
