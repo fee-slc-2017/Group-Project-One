@@ -1,6 +1,32 @@
+html, body, * {
+  box-sizing: border-box;
+}
+
 body {
   background: yellow;
+
 }
+
+.container {
+
+}
+
+.banner {
+
+}
+
+.left {
+
+}
+
+.center {
+
+}
+
+.right {
+  
+}
+
 
 .show-bg{
   background: lightslategrey;
