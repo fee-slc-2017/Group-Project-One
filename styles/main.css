@@ -1,16 +1,39 @@
-/** {
-  border: 1px solid lightgrey;
-}*/
-
 
 header {
   margin: 0;
 }
 
+html, body, * {
+  box-sizing: border-box;
+}
+
 body {
   background: yellow;
   margin: 0px;
+
 }
+
+.container {
+
+}
+
+.banner {
+
+>>>>>>> layout
+}
+
+.left {
+
+}
+
+.center {
+
+}
+
+.right {
+
+}
+
 
 .show-bg{
   /*background: lightslategrey;*/
