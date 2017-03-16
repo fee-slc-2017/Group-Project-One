@@ -11,6 +11,11 @@ body {
   margin: 0px;
   margin-top: 10%;
 }
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
 
 .container {
   flex-grow: 1;
@@ -96,7 +101,7 @@ nav {
 
 .footer {
   align-self: flex-end;
-  position:absolute;
+  position: absolute;
   background-color: white;
   left:0;
   bottom:0;
