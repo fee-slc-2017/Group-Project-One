@@ -93,3 +93,15 @@ nav {
   font-size: 1.5em;
   color: black;
 }
+
+.footer {
+  align-self: flex-end;
+  position:absolute;
+  background-color: white;
+  left:0;
+  bottom:0;
+  height:100px;
+  width:100%;
+  text-align: center;
+  padding:5px;
+}
