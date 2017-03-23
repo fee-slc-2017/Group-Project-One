@@ -1,13 +1,36 @@
 body {
-  background-color: khaki;
+  /*background-color: khaki;*/
+
 }
+
+header {
+  background-color: khaki;
+  /*background-image:url("./images/banner.png");*/
+  height: 300px;
+}
+
+ul {
+  font-size: 35px;
+}
+
+
+
+/*.header-image {
+  background-image:url("./images/banner-pic.jpg");*/
+
+
+
+
+
 .flex-menu-container {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    align-items: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*align-items: flex-start;*/
 }
 
 .flex-columns-container {
@@ -17,33 +40,62 @@ body {
     justify-content: center;
     align-content: flex-start;
     align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-.flex-items-default {
+/*.flex-items-default {
     width: 300px;
     height: 250px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 0;
-}
+}*/
 
 .flex-menu-item {
-    width: <property unused>
-    height: 70px;
+    /*width: <property unused>*/
+    /*height: 100px;*/
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis: 100px;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 20px;
+    text-align: center;
+
 }
 
  .flex-column-item {
-    width: 32%;
-    height: <property unused>
+    width: 33%;
+    /*height: <property unused>*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*flex-basis: 470px;*/
+    border: 2px solid black;
+    /*font-size: 25px;*/
+    text-align: center;
+
+}
+
+.flex-footer {
+    /*width: <property unused>
+    height: <property unused>*/
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 200px;
-    border: 2px solid black;
-    font-size: 15px;
+    flex-basis: 98%;
+    background-color: khaki;
+}
+
+.float-left {
+  float: left;
+  width: 125px;
+}
+
+.float-right {
+  float: right;
+  width: 125px;
+}
+
+p {
+  font-size: 20px;
 }
