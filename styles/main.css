@@ -17,7 +17,7 @@ body {
 header {
   background-color: khaki;
   /*background-image:url("./images/banner.png");*/
-  height: 300px;
+  height: 200px;
 }
 
 ul {
@@ -37,13 +37,13 @@ a:hover {
   color: inherit;
 }
 
+#tiy-logo {
+  height: 50px;
+  width: 50px;
+}
 
 /*.header-image {
   background-image:url("./images/banner-pic.jpg");*/
-
-
-
-
 
 .flex-menu-container {
     display:flex;
