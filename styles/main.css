@@ -42,8 +42,9 @@ a:hover {
   width: 50px;
 }
 
-/*.header-image {
-  background-image:url("./images/banner-pic.jpg");*/
+.group {
+  align-self: flex-start;
+}
 
 .flex-menu-container {
     display:flex;
@@ -97,6 +98,8 @@ a:hover {
     border: 2px solid black;
     /*font-size: 25px;*/
     text-align: center;
+    align-self: flex-start;
+
 
 }
 
