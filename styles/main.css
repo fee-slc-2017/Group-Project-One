@@ -1,4 +1,6 @@
-
+* {
+  border: 1px dashed blue;
+}
 
 header {
   margin: 0;
@@ -42,8 +44,13 @@ a:hover {
   width: 50px;
 }
 
-.group {
-  align-self: flex-start;
+.flex-group-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .flex-menu-container {
