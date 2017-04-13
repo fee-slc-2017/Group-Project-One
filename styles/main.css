@@ -22,7 +22,10 @@ ul {
   font-size: 35px;
 }
 
-
+#hero-video {
+  width: 100%;
+  /*height: 250px;*/
+}
 
 /*.header-image {
   background-image:url("./images/banner-pic.jpg");*/
