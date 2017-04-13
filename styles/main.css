@@ -1,5 +1,6 @@
 html, body, * {
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -17,13 +18,13 @@ nav li {
   color: white;
   opacity: 0.8;
   padding-right: 1em;
-
-
 }
+
+
 
 header {
   /*background-color: blue;*/
-  height: 400px;
+  height: 500px;
   margin: 0;
   background-image: url("../images/SLC-downtown.jpg");
   background-repeat: no-repeat;
