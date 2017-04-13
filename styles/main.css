@@ -50,19 +50,10 @@ ul {
   font-size: 35px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
+#hero-video {
+  width: 100%;
 
-a:hover {
-  text-decoration: none;
-  color: inherit;
 }
 
 a:hover span{
@@ -197,30 +188,4 @@ span:after{
 p {
   font-size: 20px;
 }
-/*
-.btn {
-  background: black;
-  background-image: -webkit-linear-gradient(top, black, khaki);
-  background-image: -moz-linear-gradient(top, black, khaki);
-  background-image: -ms-linear-gradient(top, black, khaki);
-  background-image: -o-linear-gradient(top, black, khaki);
-  background-image: linear-gradient(to bottom, black, khaki);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, khaki , black);
-  background-image: -moz-linear-gradient(top, khaki , black);
-  background-image: -ms-linear-gradient(top, khaki , black);
-  background-image: -o-linear-gradient(top, khaki , black);
-  background-image: linear-gradient(to bottom, khaki , black);
-  text-decoration: none;
-}*/
