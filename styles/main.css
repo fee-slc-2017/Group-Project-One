@@ -1,23 +1,39 @@
-
-
-header {
-  margin: 0;
-}
-
 html, body, * {
   box-sizing: border-box;
 }
 
 body {
 
-  /*background-color: khaki;*/
+}
+
+nav {
+  float:right;
+}
+
+nav li {
+  text-decoration: none;
+  display: inline;
+  list-style: none;
+  color: white;
+  opacity: 0.8;
+  padding-right: 1em;
+
 
 }
 
 header {
-  background-color: khaki;
-  /*background-image:url("./images/banner.png");*/
-  height: 200px;
+  /*background-color: blue;*/
+  height: 400px;
+  margin: 0;
+  background-image: url("../images/SLC-downtown.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav ul {
+  padding-right: 5em;
+
 }
 
 ul {
@@ -163,7 +179,7 @@ span:after{
 p {
   font-size: 20px;
 }
-
+/*
 .btn {
   background: black;
   background-image: -webkit-linear-gradient(top, black, khaki);
@@ -189,4 +205,4 @@ p {
   background-image: -o-linear-gradient(top, khaki , black);
   background-image: linear-gradient(to bottom, khaki , black);
   text-decoration: none;
-}
+}*/
