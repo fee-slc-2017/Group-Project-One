@@ -13,7 +13,7 @@ html, body, * {
 }
 
 body {
-
+  margin: 0;
 }
 
 nav {
@@ -50,11 +50,28 @@ ul {
   font-size: 35px;
 }
 
-
-#hero-video {
+.video-content {
+  position: relative;
   width: 100%;
-
+  margin: 0 auto;
 }
+.video-content video {
+  width: 100%;
+  display: block;
+}
+.video-content:before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 
 a:hover span{
   display:block;
