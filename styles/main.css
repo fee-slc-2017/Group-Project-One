@@ -1,3 +1,12 @@
+
+* {
+  border: 1px dashed blue;
+}
+
+header {
+  margin: 0;
+}
+ 
 html, body, * {
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
@@ -100,8 +109,14 @@ span:after{
   width: 50px;
 }
 
-/*.header-image {
-  background-image:url("./images/banner-pic.jpg");*/
+.flex-group-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
 
 .flex-menu-container {
     display:flex;
@@ -155,6 +170,8 @@ span:after{
     border: 2px solid black;
     /*font-size: 25px;*/
     text-align: center;
+    align-self: flex-start;
+
 
 }
 
