@@ -1,12 +1,10 @@
 
-* {
-  border: 1px dashed blue;
-}
+
 
 header {
   margin: 0;
 }
- 
+
 html, body, * {
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
@@ -18,16 +16,24 @@ body {
 
 nav {
   float:right;
+
 }
 
 nav li {
-  text-decoration: none;
   display: inline;
   list-style: none;
+
+}
+
+nav ul li a {
   color: white;
   opacity: 0.8;
   padding-right: 1em;
+  text-decoration: none;
+  font-size: .5em;
+
 }
+
 
 
 
@@ -56,9 +62,9 @@ ul {
 
 }
 
-a:hover span{
+/*a:hover span{
   display:block;
-}
+}*/
 
 span{
     background: lightgrey;
@@ -188,4 +194,3 @@ span:after{
 p {
   font-size: 20px;
 }
-
