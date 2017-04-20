@@ -11,7 +11,8 @@ html, body, * {
 }
 
 body {
-
+margin: 0;
+padding: 0;
 }
 
 nav {
@@ -44,7 +45,25 @@ header {
   /*background-image: url("../images/SLC-downtown.jpg");
   background-repeat: no-repeat;
   background-size: cover;*/
+  background: rgba(0, 0, 0, 0.7); z-index: 10;
+}
 
+.video-content video {
+  width: 100%;
+  display: block;
+}
+
+.video-content:before {
+  content: ‘’;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 300px;
+  width: 100%;
 }
 
 nav ul {
