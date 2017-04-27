@@ -1,29 +1,24 @@
-
-
-
-header {
-  margin: 0;
-}
-
 html, body, * {
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-margin: 0;
-padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
   float:right;
-
 }
 
 nav li {
   display: inline;
   list-style: none;
-
 }
 
 nav ul li a {
@@ -32,25 +27,19 @@ nav ul li a {
   padding-right: 1em;
   text-decoration: none;
   font-size: .5em;
-
 }
 
-
-
-
 header {
-  /*background-color: blue;*/
-  height: 500px;
-  margin: 0;
-  /*background-image: url("../images/SLC-downtown.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;*/
+  width: 100vw;
+  height: 100%;
   background: rgba(0, 0, 0, 0.7); z-index: 10;
 }
 
 .video-content video {
-  width: 100%;
+  width: 100vw;
   display: block;
+  position:absolute;
+  z-index: -1;
 }
 
 .video-content:before {
@@ -72,7 +61,7 @@ nav ul {
 }
 
 ul {
-  font-size: 35px;
+  font-size: 2em;
 }
 
 
@@ -154,6 +143,7 @@ span:after{
     align-items: stretch;
     flex-grow: 1;
     flex-shrink: 1;
+    /*width: 100%;*/
 }
 
 /*.flex-items-default {
